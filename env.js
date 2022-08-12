@@ -7,7 +7,9 @@
  */
 
 const ENV_API_URL = {
-	dev: 'https://www.fastmock.site/mock/8d23acbfd722e2f8ea7d62b029ab03b3/base', //开发环境
+	dev: 'https://www.fastmock.site/mock/4ae0ed43c3d9df0e37292b830c43bc74/api', //开发环境
 	uat: '', //预发环境
 	prod: '', //生产环境
 }
+
+module.exports = ENV_API_URL;
